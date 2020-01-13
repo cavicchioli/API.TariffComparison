@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29519.87
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API.TariffComparison", "API.TariffComparison\API.TariffComparison.csproj", "{4E3246F0-943A-45A1-AF59-B74052A9B95F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API.TariffComparison", "API.TariffComparison\API.TariffComparison.csproj", "{4E3246F0-943A-45A1-AF59-B74052A9B95F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra", "Infra", "{39F2F47A-E602-4AEF-A1E8-897D75AF8E8A}"
 EndProject
@@ -11,20 +11,23 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CrossCutting", "CrossCuttin
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{2AC3F119-0774-435B-83AF-8F74E2279952}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TariffComparison.Infra.CrossCutting.IoC", "TariffComparison.Infra.CrossCutting.IoC\TariffComparison.Infra.CrossCutting.IoC.csproj", "{CDD67A4F-CBD4-4737-8E77-2342247E08EB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TariffComparison.Infra.CrossCutting.IoC", "TariffComparison.Infra.CrossCutting.IoC\TariffComparison.Infra.CrossCutting.IoC.csproj", "{CDD67A4F-CBD4-4737-8E77-2342247E08EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TariffComparison.Infra.Data", "TariffComparison.Infra.Data\TariffComparison.Infra.Data.csproj", "{7E6ED423-5672-4D3C-A865-2B7F552FBE51}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TariffComparison.Infra.Data", "TariffComparison.Infra.Data\TariffComparison.Infra.Data.csproj", "{7E6ED423-5672-4D3C-A865-2B7F552FBE51}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{5406936D-27EE-4972-B1D7-E7EED8B5BAC1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TariffComparison.Unit.Test", "TariffComparison.Unit.Test\TariffComparison.Unit.Test.csproj", "{0A408B70-28DA-499E-84A7-025DFBD4145B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TariffComparison.Unit.Test", "TariffComparison.Unit.Test\TariffComparison.Unit.Test.csproj", "{0A408B70-28DA-499E-84A7-025DFBD4145B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TariffComparison.Application", "TariffComparison.Application\TariffComparison.Application.csproj", "{C0DCA6A9-D3FB-48AB-8C7C-FB934DADCD0F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TariffComparison.Application", "TariffComparison.Application\TariffComparison.Application.csproj", "{C0DCA6A9-D3FB-48AB-8C7C-FB934DADCD0F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TariffComparison.Domain", "TariffComparison.Domain\TariffComparison.Domain.csproj", "{BBA4FF2D-B78F-4C14-BF16-3D723B93E8DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TariffComparison.Domain", "TariffComparison.Domain\TariffComparison.Domain.csproj", "{BBA4FF2D-B78F-4C14-BF16-3D723B93E8DD}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C759BC71-0064-4AB3-A9AE-2EAE38C3ECBB}"
 	ProjectSection(SolutionItems) = preProject
+		.dockerignore = .dockerignore
+		.gitignore = .gitignore
+		Dockerfile = Dockerfile
 		README.md = README.md
 	EndProjectSection
 EndProject
