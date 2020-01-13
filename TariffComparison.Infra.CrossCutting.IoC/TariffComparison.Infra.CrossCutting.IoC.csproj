@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="3.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TariffComparison.Application\TariffComparison.Application.csproj" />
+    <ProjectReference Include="..\TariffComparison.Domain\TariffComparison.Domain.csproj" />
+    <ProjectReference Include="..\TariffComparison.Infra.Data\TariffComparison.Infra.Data.csproj" />
+  </ItemGroup>
+
+</Project>

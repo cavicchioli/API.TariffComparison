@@ -1,0 +1,11 @@
+D:\cavicchiolli-projects\API.TariffComparison\TariffComparison.Application\bin\Debug\netcoreapp3.0\TariffComparison.Application.deps.json
+D:\cavicchiolli-projects\API.TariffComparison\TariffComparison.Application\bin\Debug\netcoreapp3.0\TariffComparison.Application.dll
+D:\cavicchiolli-projects\API.TariffComparison\TariffComparison.Application\bin\Debug\netcoreapp3.0\TariffComparison.Application.pdb
+D:\cavicchiolli-projects\API.TariffComparison\TariffComparison.Application\bin\Debug\netcoreapp3.0\TariffComparison.Domain.dll
+D:\cavicchiolli-projects\API.TariffComparison\TariffComparison.Application\bin\Debug\netcoreapp3.0\TariffComparison.Domain.pdb
+D:\cavicchiolli-projects\API.TariffComparison\TariffComparison.Application\obj\Debug\netcoreapp3.0\TariffComparison.Application.csprojAssemblyReference.cache
+D:\cavicchiolli-projects\API.TariffComparison\TariffComparison.Application\obj\Debug\netcoreapp3.0\TariffComparison.Application.AssemblyInfoInputs.cache
+D:\cavicchiolli-projects\API.TariffComparison\TariffComparison.Application\obj\Debug\netcoreapp3.0\TariffComparison.Application.AssemblyInfo.cs
+D:\cavicchiolli-projects\API.TariffComparison\TariffComparison.Application\obj\Debug\netcoreapp3.0\TariffComparison.Application.csproj.CopyComplete
+D:\cavicchiolli-projects\API.TariffComparison\TariffComparison.Application\obj\Debug\netcoreapp3.0\TariffComparison.Application.dll
+D:\cavicchiolli-projects\API.TariffComparison\TariffComparison.Application\obj\Debug\netcoreapp3.0\TariffComparison.Application.pdb

@@ -1,0 +1,350 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\cavicchiolli-projects\\API.TariffComparison\\API.TariffComparison\\API.TariffComparison.csproj": {}
+  },
+  "projects": {
+    "D:\\cavicchiolli-projects\\API.TariffComparison\\API.TariffComparison\\API.TariffComparison.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\cavicchiolli-projects\\API.TariffComparison\\API.TariffComparison\\API.TariffComparison.csproj",
+        "projectName": "API.TariffComparison",
+        "projectPath": "D:\\cavicchiolli-projects\\API.TariffComparison\\API.TariffComparison\\API.TariffComparison.csproj",
+        "packagesPath": "C:\\Users\\Victor Cavichiolli\\.nuget\\packages\\",
+        "outputPath": "D:\\cavicchiolli-projects\\API.TariffComparison\\API.TariffComparison\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Victor Cavichiolli\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "D:\\cavicchiolli-projects\\API.TariffComparison\\TariffComparison.Application\\TariffComparison.Application.csproj": {
+                "projectPath": "D:\\cavicchiolli-projects\\API.TariffComparison\\TariffComparison.Application\\TariffComparison.Application.csproj"
+              },
+              "D:\\cavicchiolli-projects\\API.TariffComparison\\TariffComparison.Infra.CrossCutting.IoC\\TariffComparison.Infra.CrossCutting.IoC.csproj": {
+                "projectPath": "D:\\cavicchiolli-projects\\API.TariffComparison\\TariffComparison.Infra.CrossCutting.IoC\\TariffComparison.Infra.CrossCutting.IoC.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.0.0-rc5, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUi": {
+              "target": "Package",
+              "version": "[5.0.0-rc5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\cavicchiolli-projects\\API.TariffComparison\\TariffComparison.Application\\TariffComparison.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\cavicchiolli-projects\\API.TariffComparison\\TariffComparison.Application\\TariffComparison.Application.csproj",
+        "projectName": "TariffComparison.Application",
+        "projectPath": "D:\\cavicchiolli-projects\\API.TariffComparison\\TariffComparison.Application\\TariffComparison.Application.csproj",
+        "packagesPath": "C:\\Users\\Victor Cavichiolli\\.nuget\\packages\\",
+        "outputPath": "D:\\cavicchiolli-projects\\API.TariffComparison\\TariffComparison.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Victor Cavichiolli\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "D:\\cavicchiolli-projects\\API.TariffComparison\\TariffComparison.Domain\\TariffComparison.Domain.csproj": {
+                "projectPath": "D:\\cavicchiolli-projects\\API.TariffComparison\\TariffComparison.Domain\\TariffComparison.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\cavicchiolli-projects\\API.TariffComparison\\TariffComparison.Domain\\TariffComparison.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\cavicchiolli-projects\\API.TariffComparison\\TariffComparison.Domain\\TariffComparison.Domain.csproj",
+        "projectName": "TariffComparison.Domain",
+        "projectPath": "D:\\cavicchiolli-projects\\API.TariffComparison\\TariffComparison.Domain\\TariffComparison.Domain.csproj",
+        "packagesPath": "C:\\Users\\Victor Cavichiolli\\.nuget\\packages\\",
+        "outputPath": "D:\\cavicchiolli-projects\\API.TariffComparison\\TariffComparison.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Victor Cavichiolli\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\cavicchiolli-projects\\API.TariffComparison\\TariffComparison.Infra.CrossCutting.IoC\\TariffComparison.Infra.CrossCutting.IoC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\cavicchiolli-projects\\API.TariffComparison\\TariffComparison.Infra.CrossCutting.IoC\\TariffComparison.Infra.CrossCutting.IoC.csproj",
+        "projectName": "TariffComparison.Infra.CrossCutting.IoC",
+        "projectPath": "D:\\cavicchiolli-projects\\API.TariffComparison\\TariffComparison.Infra.CrossCutting.IoC\\TariffComparison.Infra.CrossCutting.IoC.csproj",
+        "packagesPath": "C:\\Users\\Victor Cavichiolli\\.nuget\\packages\\",
+        "outputPath": "D:\\cavicchiolli-projects\\API.TariffComparison\\TariffComparison.Infra.CrossCutting.IoC\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Victor Cavichiolli\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "D:\\cavicchiolli-projects\\API.TariffComparison\\TariffComparison.Application\\TariffComparison.Application.csproj": {
+                "projectPath": "D:\\cavicchiolli-projects\\API.TariffComparison\\TariffComparison.Application\\TariffComparison.Application.csproj"
+              },
+              "D:\\cavicchiolli-projects\\API.TariffComparison\\TariffComparison.Domain\\TariffComparison.Domain.csproj": {
+                "projectPath": "D:\\cavicchiolli-projects\\API.TariffComparison\\TariffComparison.Domain\\TariffComparison.Domain.csproj"
+              },
+              "D:\\cavicchiolli-projects\\API.TariffComparison\\TariffComparison.Infra.Data\\TariffComparison.Infra.Data.csproj": {
+                "projectPath": "D:\\cavicchiolli-projects\\API.TariffComparison\\TariffComparison.Infra.Data\\TariffComparison.Infra.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\cavicchiolli-projects\\API.TariffComparison\\TariffComparison.Infra.Data\\TariffComparison.Infra.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\cavicchiolli-projects\\API.TariffComparison\\TariffComparison.Infra.Data\\TariffComparison.Infra.Data.csproj",
+        "projectName": "TariffComparison.Infra.Data",
+        "projectPath": "D:\\cavicchiolli-projects\\API.TariffComparison\\TariffComparison.Infra.Data\\TariffComparison.Infra.Data.csproj",
+        "packagesPath": "C:\\Users\\Victor Cavichiolli\\.nuget\\packages\\",
+        "outputPath": "D:\\cavicchiolli-projects\\API.TariffComparison\\TariffComparison.Infra.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Victor Cavichiolli\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "D:\\cavicchiolli-projects\\API.TariffComparison\\TariffComparison.Domain\\TariffComparison.Domain.csproj": {
+                "projectPath": "D:\\cavicchiolli-projects\\API.TariffComparison\\TariffComparison.Domain\\TariffComparison.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Bogus": {
+              "target": "Package",
+              "version": "[28.4.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

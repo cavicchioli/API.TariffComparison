@@ -1,0 +1,15 @@
+D:\cavicchiolli-projects\API.TariffComparison\TariffComparison.Infra.CrossCutting.IoC\bin\Debug\netcoreapp3.0\TariffComparison.Infra.CrossCutting.IoC.deps.json
+D:\cavicchiolli-projects\API.TariffComparison\TariffComparison.Infra.CrossCutting.IoC\bin\Debug\netcoreapp3.0\TariffComparison.Infra.CrossCutting.IoC.dll
+D:\cavicchiolli-projects\API.TariffComparison\TariffComparison.Infra.CrossCutting.IoC\bin\Debug\netcoreapp3.0\TariffComparison.Infra.CrossCutting.IoC.pdb
+D:\cavicchiolli-projects\API.TariffComparison\TariffComparison.Infra.CrossCutting.IoC\bin\Debug\netcoreapp3.0\TariffComparison.Domain.dll
+D:\cavicchiolli-projects\API.TariffComparison\TariffComparison.Infra.CrossCutting.IoC\bin\Debug\netcoreapp3.0\TariffComparison.Infra.Data.dll
+D:\cavicchiolli-projects\API.TariffComparison\TariffComparison.Infra.CrossCutting.IoC\bin\Debug\netcoreapp3.0\TariffComparison.Domain.pdb
+D:\cavicchiolli-projects\API.TariffComparison\TariffComparison.Infra.CrossCutting.IoC\bin\Debug\netcoreapp3.0\TariffComparison.Infra.Data.pdb
+D:\cavicchiolli-projects\API.TariffComparison\TariffComparison.Infra.CrossCutting.IoC\obj\Debug\netcoreapp3.0\TariffComparison.Infra.CrossCutting.IoC.csprojAssemblyReference.cache
+D:\cavicchiolli-projects\API.TariffComparison\TariffComparison.Infra.CrossCutting.IoC\obj\Debug\netcoreapp3.0\TariffComparison.Infra.CrossCutting.IoC.AssemblyInfoInputs.cache
+D:\cavicchiolli-projects\API.TariffComparison\TariffComparison.Infra.CrossCutting.IoC\obj\Debug\netcoreapp3.0\TariffComparison.Infra.CrossCutting.IoC.AssemblyInfo.cs
+D:\cavicchiolli-projects\API.TariffComparison\TariffComparison.Infra.CrossCutting.IoC\obj\Debug\netcoreapp3.0\TariffComparison.Infra.CrossCutting.IoC.csproj.CopyComplete
+D:\cavicchiolli-projects\API.TariffComparison\TariffComparison.Infra.CrossCutting.IoC\obj\Debug\netcoreapp3.0\TariffComparison.Infra.CrossCutting.IoC.dll
+D:\cavicchiolli-projects\API.TariffComparison\TariffComparison.Infra.CrossCutting.IoC\obj\Debug\netcoreapp3.0\TariffComparison.Infra.CrossCutting.IoC.pdb
+D:\cavicchiolli-projects\API.TariffComparison\TariffComparison.Infra.CrossCutting.IoC\bin\Debug\netcoreapp3.0\TariffComparison.Application.dll
+D:\cavicchiolli-projects\API.TariffComparison\TariffComparison.Infra.CrossCutting.IoC\bin\Debug\netcoreapp3.0\TariffComparison.Application.pdb
