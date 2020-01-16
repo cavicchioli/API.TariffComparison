@@ -1,6 +1,10 @@
 ﻿using AutoMapper;
+using FluentValidation;
 using Microsoft.Extensions.DependencyInjection;
 using TariffComparison.Application.AutoMapper;
+using TariffComparison.Application.Commands;
+using TariffComparison.Application.Notification;
+using TariffComparison.Application.Validations;
 using TariffComparison.Domain.Interfaces;
 using TariffComparison.Infra.Data.Repository;
 
@@ -15,7 +19,14 @@ namespace TariffComparison.Infra.CrossCutting.IoC
             services.AddScoped<IMapper>(sp => new Mapper(AutoMapperConfig.RegisterMappings()))
 
             //Repositories
-            .AddSingleton<ITariffRepository, TariffRepository>();
+            .AddSingleton<ITariffRepository, TariffRepository>()
+
+            //Validators
+            .AddTransient<IValidator<GetTariffByIdEvent>, GetTariffByIdEventValidation>()
+            .AddTransient<IValidator<ListCostsByGivenKwhConsumptionEvent>, ListCostsByGivenKwhConsumptionEventValidation>()
+
+            //Validators Notification
+            .AddScoped<INotificationContext, NotificationContext>();
 
             return services;
         }

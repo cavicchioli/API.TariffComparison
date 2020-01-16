@@ -5,6 +5,7 @@ using System.Linq;
 using System.Net;
 using System.Threading.Tasks;
 using TariffComparison.Application.Commands;
+using TariffComparison.Application.Notification;
 using TariffComparison.Application.Responses;
 
 namespace API.TariffComparison.Controllers
@@ -14,9 +15,11 @@ namespace API.TariffComparison.Controllers
     public class TariffComparisonController : Controller
     {
         private readonly IMediator _mediator;
-        public TariffComparisonController(IMediator mediator)
+        private readonly INotificationContext _notificationContext;
+        public TariffComparisonController(IMediator mediator, INotificationContext notificationContext)
         {
             _mediator = mediator;
+            _notificationContext = notificationContext;
         }
 
         /// <summary>
@@ -45,11 +48,14 @@ namespace API.TariffComparison.Controllers
         public async Task<IActionResult> GetByCode([FromRoute] int id)
         {
             var response = await _mediator.Send(new GetTariffByIdEvent() { Id = id });
-            if (response==null)
-            {
-                return BadRequest();
 
+            if (_notificationContext.HasErrorNotifications)
+            {
+                var notifications = _notificationContext.GetErrorNotifications();
+                var message = string.Join(", ", notifications.Select(x => x.Value));
+                return BadRequest(message);
             }
+
             return Ok(response);
         }
         /// <summary>
@@ -60,15 +66,13 @@ namespace API.TariffComparison.Controllers
         [ProducesResponseType((int)HttpStatusCode.NotFound)]
         public async Task<IActionResult> Post([FromBody]ListCostsByGivenKwhConsumptionEvent command)
         {
-            if (command.AnnualKwhConsumption < 1)
-            {
-                return BadRequest("<AnnualKwhConsumption> Must Be Greater Than Zero");
-            }
 
             var response = await _mediator.Send(command);
-            if (!response.Any())
+            if (_notificationContext.HasErrorNotifications)
             {
-                return BadRequest();
+                var notifications = _notificationContext.GetErrorNotifications();
+                var message = string.Join(", ", notifications.Select(x => x.Value));
+                return BadRequest(message);
             }
 
             return Ok(response);

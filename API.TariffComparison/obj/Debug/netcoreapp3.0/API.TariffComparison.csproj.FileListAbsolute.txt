@@ -37,3 +37,6 @@ D:\cavicchiolli-projects\API.TariffComparison\API.TariffComparison\obj\Debug\net
 D:\cavicchiolli-projects\API.TariffComparison\API.TariffComparison\obj\Debug\netcoreapp3.0\API.TariffComparison.csproj.CopyComplete
 D:\cavicchiolli-projects\API.TariffComparison\API.TariffComparison\obj\Debug\netcoreapp3.0\API.TariffComparison.dll
 D:\cavicchiolli-projects\API.TariffComparison\API.TariffComparison\obj\Debug\netcoreapp3.0\API.TariffComparison.pdb
+D:\cavicchiolli-projects\API.TariffComparison\API.TariffComparison\bin\Debug\netcoreapp3.0\FluentValidation.dll
+D:\cavicchiolli-projects\API.TariffComparison\API.TariffComparison\bin\Debug\netcoreapp3.0\TariffComparison.Infra.BehaviorMediatR.dll
+D:\cavicchiolli-projects\API.TariffComparison\API.TariffComparison\bin\Debug\netcoreapp3.0\TariffComparison.Infra.BehaviorMediatR.pdb

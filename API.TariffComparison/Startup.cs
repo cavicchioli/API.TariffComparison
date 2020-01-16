@@ -6,6 +6,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.OpenApi.Models;
 using System;
+using TariffComparison.Infra.BehaviorMediatR;
 using TariffComparison.Infra.CrossCutting.IoC;
 
 namespace API.TariffComparison
@@ -24,7 +25,9 @@ namespace API.TariffComparison
             var assembly = AppDomain.CurrentDomain.Load("TariffComparison.Application");
             services.AddMvc();
             services.AddBootStrapperIoC();
+            services.AddScoped(typeof(IPipelineBehavior<,>), typeof(ValidationRequestBehavior<,>));
             services.AddMediatR(assembly);
+            
             services.AddAutoMapper(typeof(Startup));
 
             services.AddSwaggerGen(c =>

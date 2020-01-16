@@ -13,6 +13,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\TariffComparison.Application\TariffComparison.Application.csproj" />
+    <ProjectReference Include="..\TariffComparison.Infra.BehaviorMediatR\TariffComparison.Infra.BehaviorMediatR.csproj" />
     <ProjectReference Include="..\TariffComparison.Infra.CrossCutting.IoC\TariffComparison.Infra.CrossCutting.IoC.csproj" />
   </ItemGroup>
 

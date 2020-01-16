@@ -29,6 +29,7 @@
           "Swashbuckle.AspNetCore": "5.0.0-rc5",
           "Swashbuckle.AspNetCore.SwaggerUI": "5.0.0-rc5",
           "TariffComparison.Application": "1.0.0",
+          "TariffComparison.Infra.BehaviorMediatR": "1.0.0",
           "TariffComparison.Infra.CrossCutting.IoC": "1.0.0",
           "Microsoft.AspNetCore.Antiforgery": "3.0.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.0.0.0",
@@ -165,7 +166,7 @@
           "System.Collections.Immutable": "1.2.4.0",
           "System.Collections.NonGeneric": "4.1.1.0",
           "System.Collections.Specialized": "4.1.1.0",
-          "System.ComponentModel.Annotations": "4.3.0.0",
+          "System.ComponentModel.Annotations.Reference": "4.3.0.0",
           "System.ComponentModel.DataAnnotations": "4.0.0.0",
           "System.ComponentModel": "4.0.3.0",
           "System.ComponentModel.EventBasedAsync": "4.1.1.0",
@@ -360,6 +361,20 @@
           "lib/netstandard2.0/Bogus.dll": {}
         }
       },
+      "FluentValidation/8.6.1": {
+        "dependencies": {
+          "System.ComponentModel.Annotations": "4.4.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/FluentValidation.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.6.1.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/FluentValidation.dll": {}
+        }
+      },
       "MediatR/8.0.0": {
         "runtime": {
           "lib/netstandard2.0/MediatR.dll": {
@@ -470,6 +485,7 @@
           "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {}
         }
       },
+      "System.ComponentModel.Annotations/4.4.1": {},
       "System.IO/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0",
@@ -547,6 +563,7 @@
       },
       "TariffComparison.Domain/1.0.0": {
         "dependencies": {
+          "FluentValidation": "8.6.1",
           "Newtonsoft.Json": "12.0.3"
         },
         "runtime": {
@@ -554,6 +571,19 @@
         },
         "compile": {
           "TariffComparison.Domain.dll": {}
+        }
+      },
+      "TariffComparison.Infra.BehaviorMediatR/1.0.0": {
+        "dependencies": {
+          "FluentValidation": "8.6.1",
+          "MediatR": "8.0.0",
+          "TariffComparison.Application": "1.0.0"
+        },
+        "runtime": {
+          "TariffComparison.Infra.BehaviorMediatR.dll": {}
+        },
+        "compile": {
+          "TariffComparison.Infra.BehaviorMediatR.dll": {}
         }
       },
       "TariffComparison.Infra.CrossCutting.IoC/1.0.0": {
@@ -1393,7 +1423,7 @@
         },
         "compileOnly": true
       },
-      "System.ComponentModel.Annotations/4.3.0.0": {
+      "System.ComponentModel.Annotations.Reference/4.3.0.0": {
         "compile": {
           "System.ComponentModel.Annotations.dll": {}
         },
@@ -2298,6 +2328,13 @@
       "path": "bogus/28.4.4",
       "hashPath": "bogus.28.4.4.nupkg.sha512"
     },
+    "FluentValidation/8.6.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-g0xw/YCVgJ1IYpBgKF9iuci/Arf6Dsq9H/WeeT9zaBpjrEA+Cr2GjWXHu1F0DKqVzp4J4hta4gGrRt6H4aESqQ==",
+      "path": "fluentvalidation/8.6.1",
+      "hashPath": "fluentvalidation.8.6.1.nupkg.sha512"
+    },
     "MediatR/8.0.0": {
       "type": "package",
       "serviceable": true,
@@ -2389,6 +2426,13 @@
       "path": "swashbuckle.aspnetcore.swaggerui/5.0.0-rc5",
       "hashPath": "swashbuckle.aspnetcore.swaggerui.5.0.0-rc5.nupkg.sha512"
     },
+    "System.ComponentModel.Annotations/4.4.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ToiYqSCioqhtspq2O/jYKtyTC/T0uwWHBTYlzCi6PRbSSHArN1IaRWeHffDamvms5sye5FDUWCfNZgubQpNRsA==",
+      "path": "system.componentmodel.annotations/4.4.1",
+      "hashPath": "system.componentmodel.annotations.4.4.1.nupkg.sha512"
+    },
     "System.IO/4.3.0": {
       "type": "package",
       "serviceable": true,
@@ -2451,6 +2495,11 @@
       "sha512": ""
     },
     "TariffComparison.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TariffComparison.Infra.BehaviorMediatR/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -3140,7 +3189,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "System.ComponentModel.Annotations/4.3.0.0": {
+    "System.ComponentModel.Annotations.Reference/4.3.0.0": {
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""

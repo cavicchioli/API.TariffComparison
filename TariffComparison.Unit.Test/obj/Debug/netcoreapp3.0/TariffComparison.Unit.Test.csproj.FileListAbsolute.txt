@@ -92,3 +92,13 @@ D:\cavicchiolli-projects\API.TariffComparison\TariffComparison.Unit.Test\obj\Deb
 D:\cavicchiolli-projects\API.TariffComparison\TariffComparison.Unit.Test\obj\Debug\netcoreapp3.0\TariffComparison.Unit.Test.csproj.CopyComplete
 D:\cavicchiolli-projects\API.TariffComparison\TariffComparison.Unit.Test\obj\Debug\netcoreapp3.0\TariffComparison.Unit.Test.dll
 D:\cavicchiolli-projects\API.TariffComparison\TariffComparison.Unit.Test\obj\Debug\netcoreapp3.0\TariffComparison.Unit.Test.pdb
+D:\cavicchiolli-projects\API.TariffComparison\TariffComparison.Unit.Test\bin\Debug\netcoreapp3.0\TariffComparison.Domain.dll
+D:\cavicchiolli-projects\API.TariffComparison\TariffComparison.Unit.Test\bin\Debug\netcoreapp3.0\TariffComparison.Domain.pdb
+D:\cavicchiolli-projects\API.TariffComparison\TariffComparison.Unit.Test\bin\Debug\netcoreapp3.0\Bogus.dll
+D:\cavicchiolli-projects\API.TariffComparison\TariffComparison.Unit.Test\bin\Debug\netcoreapp3.0\AutoMapper.dll
+D:\cavicchiolli-projects\API.TariffComparison\TariffComparison.Unit.Test\bin\Debug\netcoreapp3.0\Castle.Core.dll
+D:\cavicchiolli-projects\API.TariffComparison\TariffComparison.Unit.Test\bin\Debug\netcoreapp3.0\MediatR.dll
+D:\cavicchiolli-projects\API.TariffComparison\TariffComparison.Unit.Test\bin\Debug\netcoreapp3.0\Moq.dll
+D:\cavicchiolli-projects\API.TariffComparison\TariffComparison.Unit.Test\bin\Debug\netcoreapp3.0\TariffComparison.Application.dll
+D:\cavicchiolli-projects\API.TariffComparison\TariffComparison.Unit.Test\bin\Debug\netcoreapp3.0\TariffComparison.Application.pdb
+D:\cavicchiolli-projects\API.TariffComparison\TariffComparison.Unit.Test\bin\Debug\netcoreapp3.0\FluentValidation.dll
